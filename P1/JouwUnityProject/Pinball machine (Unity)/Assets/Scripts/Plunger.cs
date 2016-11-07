@@ -14,7 +14,7 @@ public class Plunger : MonoBehaviour {
 	void Update () {
 	
 	}
-
+    // Afschieten van de bal
     void OnCollisionStay(Collision c)
     {
         if(Input.GetButtonDown("Jump"))
