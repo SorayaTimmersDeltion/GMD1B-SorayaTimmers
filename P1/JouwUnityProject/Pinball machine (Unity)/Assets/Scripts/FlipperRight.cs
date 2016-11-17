@@ -18,7 +18,7 @@ public class FlipperRight : MonoBehaviour {
     {
         if (Input.GetButtonDown("Fire2"))
         {
-            Vector3 f = (-(transform.right)) * flipperStrength;
+            Vector3 f = ((transform.right)) * flipperStrength;
             Vector3 p = (transform.up) + transform.position * pushForce;
             GetComponent<Rigidbody>().AddForceAtPosition(f, p);
         }

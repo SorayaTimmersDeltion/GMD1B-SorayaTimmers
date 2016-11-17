@@ -29,6 +29,7 @@ public class DeathZone : MonoBehaviour
             GameObject.Find("GameManager").GetComponent<GameManager>().ballsCount -= 1;
         }     
 
+        //Een nieuwe bal laten spawnen
         GameObject.Find("BallCreator").GetComponent<BallCreate>().CreateBall();        
     }
 

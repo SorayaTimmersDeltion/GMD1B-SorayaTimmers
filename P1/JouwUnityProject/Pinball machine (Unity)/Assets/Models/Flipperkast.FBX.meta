@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 64401f5cb076a0b43ae633c29be74473
+timeCreated: 1479394387
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Binnenmuur
+    100002: Binnenmuur 1
+    100004: Bloem
+    100006: Box
+    100008: Box009
+    100010: Box010
+    100012: Buitenmuur
+    100014: Buitenmuur 1
+    100016: Buitenmuur 2
+    100018: Buitenmuur 3
+    100020: Draak
+    100022: Flipper(links)
+    100024: Flipper(rechts)
+    100026: //RootNode
+    100028: Ingot
+    100030: Ingot(deathzone)
+    100032: Meeldraden
+    100034: Muur
+    100036: Pinball
+    100038: Snorhaar
+    100040: Snorhaar 1
+    100042: Vaas
+    100044: Vis (links)
+    100046: Vis (rechts)
+    100048: Waaier1(linkerhelft)
+    100050: Waaier2(linkerhelft)
+    100052: Waaier3(linkerhelft)001
+    100054: Waaier4(linkerhelft)002
+    100056: Waaier5(linkerhelft)
+    400000: Binnenmuur
+    400002: Binnenmuur 1
+    400004: Bloem
+    400006: Box
+    400008: Box009
+    400010: Box010
+    400012: Buitenmuur
+    400014: Buitenmuur 1
+    400016: Buitenmuur 2
+    400018: Buitenmuur 3
+    400020: Draak
+    400022: Flipper(links)
+    400024: Flipper(rechts)
+    400026: //RootNode
+    400028: Ingot
+    400030: Ingot(deathzone)
+    400032: Meeldraden
+    400034: Muur
+    400036: Pinball
+    400038: Snorhaar
+    400040: Snorhaar 1
+    400042: Vaas
+    400044: Vis (links)
+    400046: Vis (rechts)
+    400048: Waaier1(linkerhelft)
+    400050: Waaier2(linkerhelft)
+    400052: Waaier3(linkerhelft)001
+    400054: Waaier4(linkerhelft)002
+    400056: Waaier5(linkerhelft)
+    2300000: Binnenmuur
+    2300002: Binnenmuur 1
+    2300004: Bloem
+    2300006: Box
+    2300008: Box009
+    2300010: Box010
+    2300012: Buitenmuur
+    2300014: Buitenmuur 1
+    2300016: Buitenmuur 2
+    2300018: Buitenmuur 3
+    2300020: Draak
+    2300022: Flipper(links)
+    2300024: Flipper(rechts)
+    2300026: Ingot
+    2300028: Ingot(deathzone)
+    2300030: Meeldraden
+    2300032: Muur
+    2300034: Pinball
+    2300036: Snorhaar
+    2300038: Snorhaar 1
+    2300040: Vaas
+    2300042: Vis (links)
+    2300044: Vis (rechts)
+    2300046: Waaier1(linkerhelft)
+    2300048: Waaier2(linkerhelft)
+    2300050: Waaier3(linkerhelft)001
+    2300052: Waaier4(linkerhelft)002
+    2300054: Waaier5(linkerhelft)
+    3300000: Binnenmuur
+    3300002: Binnenmuur 1
+    3300004: Bloem
+    3300006: Box
+    3300008: Box009
+    3300010: Box010
+    3300012: Buitenmuur
+    3300014: Buitenmuur 1
+    3300016: Buitenmuur 2
+    3300018: Buitenmuur 3
+    3300020: Draak
+    3300022: Flipper(links)
+    3300024: Flipper(rechts)
+    3300026: Ingot
+    3300028: Ingot(deathzone)
+    3300030: Meeldraden
+    3300032: Muur
+    3300034: Pinball
+    3300036: Snorhaar
+    3300038: Snorhaar 1
+    3300040: Vaas
+    3300042: Vis (links)
+    3300044: Vis (rechts)
+    3300046: Waaier1(linkerhelft)
+    3300048: Waaier2(linkerhelft)
+    3300050: Waaier3(linkerhelft)001
+    3300052: Waaier4(linkerhelft)002
+    3300054: Waaier5(linkerhelft)
+    4300000: Muur
+    4300002: Ingot
+    4300004: Pinball
+    4300006: Box
+    4300008: Flipper(rechts)
+    4300010: Flipper(links)
+    4300012: Ingot(deathzone)
+    4300014: Vis (links)
+    4300016: Waaier1(linkerhelft)
+    4300018: Waaier2(linkerhelft)
+    4300020: Waaier3(linkerhelft)001
+    4300022: Waaier4(linkerhelft)002
+    4300024: Waaier5(linkerhelft)
+    4300026: Bloem
+    4300028: Binnenmuur
+    4300030: Vis (rechts)
+    4300032: Draak
+    4300034: Snorhaar
+    4300036: Snorhaar
+    4300038: Binnenmuur
+    4300040: Box009
+    4300042: Box010
+    4300044: Meeldraden
+    4300046: Vaas
+    4300048: Buitenmuur
+    4300050: Buitenmuur
+    4300052: Buitenmuur
+    4300054: Buitenmuur
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
