@@ -20,7 +20,7 @@ public class Bumper : MonoBehaviour
         if (collision == true)
         {
             // Creëeren van een nieuwe bal bij een score van 100 + score wordt opgeteld bij een collision
-            if (!(GameObject.Find("GameManager").GetComponent<GameManager>().scoreCount >= 90))
+            if (!(GameObject.Find("GameManager").GetComponent<GameManager>().scoreCount == 90))
             {
                 GameObject.Find("GameManager").GetComponent<GameManager>().scoreCount += 10;
             }

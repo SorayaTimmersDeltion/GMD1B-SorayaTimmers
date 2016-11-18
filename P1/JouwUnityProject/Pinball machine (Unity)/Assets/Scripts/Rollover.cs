@@ -12,7 +12,7 @@ public class Rollover : MonoBehaviour {
         if (collision == true)
         {
             // Creëeren van een nieuwe bal bij een score van 100 + score wordt opgeteld bij een collision
-            if (!(GameObject.Find("GameManager").GetComponent<GameManager>().scoreCount >= 95))
+            if (!(GameObject.Find("GameManager").GetComponent<GameManager>().scoreCount == 95))
             {
                 GameObject.Find("GameManager").GetComponent<GameManager>().scoreCount += 5;
             }
