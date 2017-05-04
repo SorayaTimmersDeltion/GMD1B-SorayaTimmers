@@ -15,14 +15,12 @@ public class Item : MonoBehaviour
     public int capacityStat;
 
     // Use this for initialization
-    void Start ()
-    {
+    void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update ()
-    {
+	void Update () {
 		
 	}
 }
