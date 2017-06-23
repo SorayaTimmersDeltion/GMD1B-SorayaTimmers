@@ -9,6 +9,7 @@ public class Item : MonoBehaviour
     public float itemWeight;
     public InventoryManager inventoryManagerScript;
 
+    //Als er op de item geklikt wordt, krijgt deze de positie van de muis
     public void OnClick()
     {
         inventoryManagerScript.selectedItem = gameObject.transform;

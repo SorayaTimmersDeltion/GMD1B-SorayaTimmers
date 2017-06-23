@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pealable_Fruit : Fruit {
+public class Equipable : Item
+{
 
-    public bool pealed;
+    public int capacity;
 
 }

@@ -6,7 +6,7 @@ public class SlotController : MonoBehaviour
 {
     public InventoryManager inventoryManagerScript;
 
-    //parent = inventory; daarvan wordt het script InventoryManager gepakt en de selectedSlot wordt de transform van de muis
+    //Er wordt geklikt op een slot
     public void OnClick()
     {
         inventoryManagerScript.selectedSlot = gameObject.transform;
