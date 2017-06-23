@@ -2,21 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour {
+public class Item : MonoBehaviour
+{
+    public int itemID;
+    public int itemWorth;
+    public float itemWeight;
+    public InventoryManager inventoryManagerScript;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    public void OnMouseEnter()
+    public void OnClick()
     {
-        //parent.parent = slot; daarvan wordt het script InventoryManager gepakt en de selectedItem wordt de transform van de muis
-        transform.parent.parent.GetComponent<InventoryManager>().selectedItem = this.transform;
+        inventoryManagerScript.selectedItem = gameObject.transform;
     }
 }
