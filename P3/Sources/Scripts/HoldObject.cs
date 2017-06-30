@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Raycast : MonoBehaviour {
+public class HoldObject : MonoBehaviour {
 
     private RaycastHit hit;
     public bool holdingObject;

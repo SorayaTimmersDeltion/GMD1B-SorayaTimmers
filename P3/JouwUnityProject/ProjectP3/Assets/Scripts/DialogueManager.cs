@@ -8,6 +8,10 @@ public class DialogueManager : MonoBehaviour
     RaycastHit hit;
     public float raycastLength;
 
+    //public Dialogue dialogueScript;
+    public UIManager uiScript;
+    public 
+
 	// Use this for initialization
 	void Start () {
 		
@@ -21,6 +25,12 @@ public class DialogueManager : MonoBehaviour
     public void conversationRayCast()
     {
         Debug.DrawRay(transform.position, transform.forward * raycastLength, Color.green, 0.2f);
-        if (Physics.Raycast(transform.position, transform.forward, out hit, raycastLength)) ;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, raycastLength))
+        {
+            if(hit.collider.tag == "NPC")
+            {
+                //dialogueScript = hit.collider.GetComponent<Dialogue>();
+            }
+        }
     }
 }

@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class CameraMovement : MonoBehaviour {
+public class UIManager : MonoBehaviour
+{
+    public Text dialogText;
 
 	// Use this for initialization
 	void Start () {

@@ -15,38 +15,56 @@ public class CharacterMovement : MonoBehaviour
     public float jumpCount;
     public Rigidbody characterRig;
 
-    private Animator walking;
-    private float vert;
-
-    void Start()
+	
+	// Update is called once per frame
+	void Update ()
     {
-        walking = GetComponent<Animator>();
-    }
+        Jump();
 
-    // Update is called once per frame
-    void Update()
-    {
-        CharMovement();
+        Movement();
 
         Run();
-
-        vert = Input.GetAxis("Vertical");
     }
 
-    void CharMovement()
+    void Movement()
     {
         // Horizontale verplaatsing van de character
         hor = Input.GetAxis("Horizontal");
         // De verplaatsing vindt plaats op de x-as van de vector3
-        axis.x = hor;
+        axis.z = hor;
 
         // Verticale verplaatsing van de character
         ver = Input.GetAxis("Vertical");
         //de verplaatsing vindt plaats op de z-as van de vector3
-        axis.z = ver;
+        axis.x = -ver;
 
         // De snelheid van de verplaatsingen
         transform.Translate(axis * Time.deltaTime * walkSpeed);
+    }
+
+    void Jump()
+    {
+        // Het springen van de character
+        if (Input.GetButtonDown("Jump"))
+        {
+            /*Bij een jumpCount onder de 1, wordt er bij een sprong 1 opgeteld 
+            en een velocity van de jumpPower toegevoegd*/
+            if (jumpCount < 1)
+            {
+                characterRig.velocity = jumpPower;
+                jumpCount += 1;
+            }
+        }
+    }
+
+    void OnCollisionEnter(Collision c)
+    {
+        /*bij collision met een object met de tag JumpReset, wordt de jumpCount naar 0 gezet. 
+          Hierdoor kan de speler opnieuw springen*/
+        if (c.gameObject.tag == "JumpReset")
+        {
+            jumpCount = 0;
+        }
     }
 
     void Run()
@@ -58,7 +76,7 @@ public class CharacterMovement : MonoBehaviour
         }
 
         // Als shift wordt losgelaten, wordt de walkSpeed verlaagd naar de oude snelheid;
-        if (Input.GetButtonUp("Fire3"))
+        if(Input.GetButtonUp("Fire3"))
         {
             walkSpeed /= runSpeed;
         }
