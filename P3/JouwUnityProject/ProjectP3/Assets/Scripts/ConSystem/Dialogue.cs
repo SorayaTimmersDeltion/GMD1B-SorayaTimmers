@@ -4,7 +4,5 @@ using UnityEngine;
 
 public class Dialogue : MonoBehaviour
 {
-
     public List<string> conversationIndex = new List<string>();
-
 }
